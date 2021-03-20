@@ -720,3 +720,9 @@ java.lang.RuntimeException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-21 03:02:46.808
 !MESSAGE Could not determine target level, using default 1.5
+
+!ENTRY org.eclipse.jface.text 2 0 2021-03-21 03:19:39.883
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-03-21 03:19:40.094
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
