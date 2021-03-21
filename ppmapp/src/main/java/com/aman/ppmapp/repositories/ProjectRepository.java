@@ -6,7 +6,9 @@ import com.aman.ppmapp.domain.Project;
 
 public interface ProjectRepository extends CrudRepository<Project, Long>{
 
-	
+   Project findByProjectIdentifier(String projectId);
+   
+   Iterable<Project> findAll();
 	
 	}
 	
